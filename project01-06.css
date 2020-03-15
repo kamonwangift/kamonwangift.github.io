@@ -1,0 +1,185 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  color: #484848;
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  object-fit: cover;
+  display: block;
+}
+
+.nav-container {
+  text-align: right;
+  padding: 16px 24px;
+}
+
+.nav-brand {
+  width: 48px;
+  height: 48px;
+  float: left;
+}
+
+.nav-item {
+  font-size: 14px;
+  color: white;
+  padding: 16px 0;
+  margin: 0 8px;
+}
+
+.main-container {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
+}
+
+.card {
+  /* width: 1040px; */
+  background-color: white;
+  border-radius: 4px;
+  padding: 32px;
+  margin: 96px 0 0 0;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.button {
+  background-color: #111e64;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  display:inline-block;
+  padding: 12px 24px;
+}
+
+.footer {
+  color: white;
+  text-align: right;
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+  width: 180px;
+}
+
+.label {
+  font-size: 24px;
+  margin-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+  font-size: 16px;
+  font-weight: 300;
+  height: 48px;
+  margin-bottom: 20px;
+  padding: 0 16px;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 256px 0 0;
+  }
+  .main-container {
+    height: fit-content;
+    background-position: top;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ # Start writing your code here
+--------------------------------------------------------------------------------------------------------- */
+
+html,
+body {
+  /* min-height: 100%; */
+  margin: 0;
+}
+
+body {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* padding: 24px; */
+}
+
+h3 {
+  font-size: 20px;
+  margin: 16px 0 8px;
+}
+a {
+  color: #fabb19;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cc9405;
+}
+a:active {
+  color: #8a6810;
+}
+
+/* images link from unsplash*/
+
+.image {
+  height: 240px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url('https://img.freepik.com/free-photo/businessman-documents-business-report-papers-job-succes-analyze-document-plans_36325-1766.jpg?size=626&ext=jpg');
+}
+.image-2 {
+  background-image: url('https://www.golegal.co.za/wp-content/uploads/2019/01/legal-practice-council.jpg');
+}
+.image-3 {
+  background-image: url('https://img.freepik.com/free-photo/businessman-documents-business-report-papers-job-succes-analyze-document-plans_36325-1766.jpg?size=626&ext=jpg');
+}
+
+/* ---------------------------------------------------------------------------------------------------------
+ # Start writing your code here
+--------------------------------------------------------------------------------------------------------- */
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product-item {
+}
+
+/* Make the list to have two columns on screen 768px >= width >= 513px*/
+@media (min-width: 513px) and (max-width: 768px) {
+}
+
+/* Make the list to have one column on screen width <= 512px*/
+@media screen and (max-width: 512px) {
+}
